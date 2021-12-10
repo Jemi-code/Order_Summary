@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(225, 100%, 94%);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-position: top;
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.main_wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 3% auto;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1.5rem hsl(224, 23%, 75%);
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    .main_wrapper{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main_wrapper{
+        width: 85%;
+    }
+}
+
+.main_wrapper > img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.wrapper{
+    margin: 1rem;
+}
+
+.header > h1{
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0.5rem 0.7rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.header > p{
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.section{
+    display: flex;
+    margin: 0.2rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.7rem;
+}
+
+.plans{
+    /* position: relative;
+    right: 2rem; */
+    line-height: 1.5rem;
+    margin-right: 2rem;
+}
+
+.plans > h3{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.plans > p{
+    color: hsl(224, 23%, 55%);
+}
+
+.change > a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.change > a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 70%);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    margin: 1.6rem 0.2rem;
+}
+
+.buttons :first-child{
+    padding: 0.7rem;
+    border-style: none;
+    border-radius: 0.4rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 500;
+    box-shadow: 0rem 1rem 1.5rem hsl(225, 100%, 94%);
+}
+
+.buttons :first-child:hover{
+    background-color: hsl(245, 75%, 70%);
+}
+
+.buttons :last-child{
+    border-style: none;
+    background-color: transparent;
+    margin-top: 1.6rem;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.buttons :last-child:hover{
+    color: hsl(223, 47%, 23%)
+}
