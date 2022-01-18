@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+Live Site URL: [URL](https://jemi-code.github.io/Order_Summary)
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
