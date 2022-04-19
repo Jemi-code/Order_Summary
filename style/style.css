@@ -81,7 +81,7 @@ body{
     margin-right: 2rem;
 }
 
-.plans > h3{
+.plans > h2{
     font-weight: 700;
     color: hsl(223, 47%, 23%);
 }
